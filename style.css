@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Digital';
+    src: url(digital-7.ttf);
+}
+
+body, html {
+    height: 100%;
+    background-color: rgb(233, 226, 226);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.calcDisplay {
+    padding: 0px 10px;
+    min-height: 50px;
+    max-width: 100%;
+    border: 1px black solid;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: aliceblue;
+    background-color:beige;
+    border-radius: 7px;
+    color:rgb(27, 27, 27);
+    font-weight: bold;
+    font-size: 34px;
+    font-family: 'Digital', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+button {
+    width: 50px;
+    height: 40px;
+    background-color: rgb(58, 58, 58);
+    color: aliceblue;
+    border: 1px black solid;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.calculator {
+    background-color: rgb(27, 27, 27);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    border-radius: 10px;
+    max-width: 100%;
+    flex-direction: column;
+}
+
+.numberPAD {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.operatorPAD {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.buttons {
+    display: flex;
+    max-width: 215px;
+    gap: 5px;
+}
+
+.equal {
+    background-color: green;
+    border-radius: 5px;
+}
